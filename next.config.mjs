@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Next.js 14: external packages that must not be bundled (use Node.js APIs)
   experimental: {
-    serverComponentsExternalPackages: ['bullmq', 'googleapis', 'postgres'],
+    serverComponentsExternalPackages: ['googleapis', 'postgres'],
   },
 
   images: {
